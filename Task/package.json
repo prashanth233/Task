@@ -1,11 +1,14 @@
 {
   
+
   "name": "price-card",
   
   "version": "0.1.0",
   
   "private": true,
-  
+
+  "homepage": "https://prashanth233.github.io/Task",
+
   "dependencies": {
   
     
@@ -47,7 +50,13 @@
   
     
   "start": "react-scripts start",
-  
+
+
+  "predeploy" : "npm run build",
+
+
+  "deploy" : "gh-pages-d build",
+
     
   "build": "react-scripts build",
   
